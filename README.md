@@ -31,7 +31,14 @@ and vote probability.
 
 ## Run locally
 
-From this directory:
+On macOS, double-click `Run Political Appearance Experiment.command`. The
+launcher prepares a private local Python environment, installs the required
+packages, starts oTree, and opens the English demo in the default browser. Keep
+the Terminal window open while using the experiment; press Control-C or close
+the window to stop it. If an older oTree database is incompatible, the launcher
+preserves it under `local_db_backups/` before starting a fresh local database.
+
+Alternatively, from this directory:
 
 ```bash
 otree devserver

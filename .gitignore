@@ -9,6 +9,7 @@ venv/
 
 # Local oTree database
 db.sqlite3
+local_db_backups/
 
 # LaTeX/PDF build intermediates
 design/tmp/
