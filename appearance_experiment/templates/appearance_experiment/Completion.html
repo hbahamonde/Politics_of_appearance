@@ -1,0 +1,15 @@
+{{ block title }}Complete{{ endblock }}
+
+{{ block content }}
+<style>
+    .completion { max-width:660px; margin:70px auto; text-align:center; padding:42px; border:1px solid #dce2e8; border-radius:20px; box-shadow:0 10px 35px rgba(23,32,42,.07); }
+    .check { width:58px; height:58px; border-radius:50%; margin:0 auto 18px; display:grid; place-items:center; background:#0f6d67; color:white; font-size:1.8rem; font-weight:800; }
+    .completion h1 { margin-bottom:10px; }
+    .completion p { color:#5d6874; font-size:1.05rem; }
+</style>
+<div class="completion">
+    <div class="check">✓</div>
+    <h1>Thank you!</h1>
+    <p>You have completed both candidate choices.</p>
+</div>
+{{ endblock }}

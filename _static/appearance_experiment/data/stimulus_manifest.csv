@@ -1,0 +1,14 @@
+identity,variant_code,appearance_condition,gender,approximate_age,image_file,pretest_status
+01,v1,progressive,male,42,candidate_01_v1.png,not_pretested
+01,v2,neutral,male,42,candidate_01_v2.png,not_pretested
+01,v3,conservative,male,42,candidate_01_v3.png,not_pretested
+02,v1,progressive,female,38,candidate_02_v1.png,not_pretested
+02,v2,neutral,female,38,candidate_02_v2.png,not_pretested
+02,v3,conservative,female,38,candidate_02_v3.png,not_pretested
+03,v1,progressive,male,54,candidate_03_v1.png,not_pretested
+03,v2,neutral,male,54,candidate_03_v2.png,not_pretested
+03,v3,conservative,male,54,candidate_03_v3.png,not_pretested
+04,v1,progressive,female,50,candidate_04_v1.png,not_pretested
+04,v2,neutral,female,50,candidate_04_v2.png,not_pretested
+04,v3,conservative,female,50,candidate_04_v3.png,not_pretested
+

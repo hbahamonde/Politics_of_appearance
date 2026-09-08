@@ -1,0 +1,132 @@
+{{ block title }}{{ endblock }}
+
+{{ block content }}
+<style>
+    :root {
+        --ink: #17202a;
+        --muted: #5d6874;
+        --line: #dce2e8;
+        --soft: #f4f7f7;
+        --accent: #0f6d67;
+        --accent-dark: #0a504c;
+    }
+    .otree-body { max-width: 1180px; }
+    .study-shell { color: var(--ink); }
+    .study-header { display:flex; justify-content:space-between; align-items:end; gap:16px; margin-bottom:16px; }
+    .eyebrow { color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+    .study-header h1 { font-size:clamp(1.55rem, 3vw, 2.25rem); margin:.25rem 0 0; }
+    .progress-label { color:var(--muted); font-weight:700; white-space:nowrap; }
+    .progress-track { height:7px; background:#e6ecec; border-radius:999px; overflow:hidden; margin-bottom:28px; }
+    .progress-fill { height:100%; width:{{ task_number|json }}00%; max-width:100%; background:var(--accent); }
+    .question { text-align:center; margin:0 auto 22px; max-width:760px; }
+    .question h2 { font-size:1.35rem; margin-bottom:7px; }
+    .question p { color:var(--muted); margin:0; }
+    .profiles { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+    .candidate-card { position:relative; border:2px solid var(--line); border-radius:18px; overflow:hidden; background:white; box-shadow:0 8px 28px rgba(23,32,42,.07); transition:.16s ease; }
+    .candidate-card:hover { transform:translateY(-2px); box-shadow:0 12px 32px rgba(23,32,42,.11); }
+    .candidate-card.selected { border-color:var(--accent); box-shadow:0 0 0 4px rgba(15,109,103,.12); }
+    .portrait-wrap { height:370px; background:#e8ebeb; overflow:hidden; }
+    .portrait-wrap img { width:100%; height:100%; object-fit:cover; object-position:center 19%; display:block; }
+    .card-body { padding:20px; }
+    .candidate-label { font-size:1.25rem; font-weight:850; margin-bottom:3px; }
+    .candidate-subtitle { color:var(--muted); font-size:.91rem; margin-bottom:17px; }
+    .policy { background:var(--soft); border-radius:12px; padding:13px 14px; margin:10px 0; text-align:left; }
+    .policy-kicker { display:block; color:var(--accent-dark); font-size:.75rem; font-weight:850; letter-spacing:.055em; text-transform:uppercase; margin-bottom:4px; }
+    .select-btn { width:100%; border:0; border-radius:12px; padding:13px 16px; margin-top:10px; background:#e8efef; color:var(--ink); font-weight:800; transition:.16s ease; }
+    .candidate-card.selected .select-btn { background:var(--accent); color:white; }
+    .candidate-card input[type=radio] { position:absolute; opacity:0; pointer-events:none; }
+    .continue-row { text-align:center; margin-top:26px; }
+    .continue-row .btn { min-width:220px; padding:12px 24px; border-radius:12px; background:var(--accent); border-color:var(--accent); font-weight:800; }
+    .continue-row .btn:disabled { background:#aeb8b8; border-color:#aeb8b8; }
+    @media (max-width:760px) {
+        .profiles { grid-template-columns:1fr; }
+        .portrait-wrap { height:330px; }
+        .study-header { align-items:start; }
+    }
+</style>
+
+<div class="study-shell">
+    <header class="study-header">
+        <div>
+            <div class="eyebrow">Municipal elections in Finland</div>
+            <h1>Candidate choice</h1>
+        </div>
+        <div class="progress-label">Choice {{ task_number }} / {{ total_tasks }}</div>
+    </header>
+    <div class="progress-track"><div class="progress-fill"></div></div>
+
+    <section class="question">
+        <h2>Which candidate would you vote for?</h2>
+        <p>Review the portraits and the two policy positions, then choose one candidate.</p>
+    </section>
+
+    <div class="profiles">
+        <article class="candidate-card" id="card-left" tabindex="0" role="button" aria-label="Select Candidate A" onclick="selectCandidate('left')" onkeydown="keyboardSelect(event, 'left')">
+            <input type="radio" name="choice_side" id="choice-left" value="left">
+            <div class="portrait-wrap">
+                <img src="{% static left_candidate.image_path %}" alt="Candidate A">
+            </div>
+            <div class="card-body">
+                <div class="candidate-label">Candidate A</div>
+                <div class="candidate-subtitle">Running for municipal council</div>
+                <div class="policy">
+                    <span class="policy-kicker">Economy and public services</span>
+                    {{ left_candidate.economic_text }}
+                </div>
+                <div class="policy">
+                    <span class="policy-kicker">Values and community</span>
+                    {{ left_candidate.cultural_text }}
+                </div>
+                <button class="select-btn" type="button">Select Candidate A</button>
+            </div>
+        </article>
+
+        <article class="candidate-card" id="card-right" tabindex="0" role="button" aria-label="Select Candidate B" onclick="selectCandidate('right')" onkeydown="keyboardSelect(event, 'right')">
+            <input type="radio" name="choice_side" id="choice-right" value="right">
+            <div class="portrait-wrap">
+                <img src="{% static right_candidate.image_path %}" alt="Candidate B">
+            </div>
+            <div class="card-body">
+                <div class="candidate-label">Candidate B</div>
+                <div class="candidate-subtitle">Running for municipal council</div>
+                <div class="policy">
+                    <span class="policy-kicker">Economy and public services</span>
+                    {{ right_candidate.economic_text }}
+                </div>
+                <div class="policy">
+                    <span class="policy-kicker">Values and community</span>
+                    {{ right_candidate.cultural_text }}
+                </div>
+                <button class="select-btn" type="button">Select Candidate B</button>
+            </div>
+        </article>
+    </div>
+
+    <input type="hidden" name="decision_seconds" id="decision-seconds">
+    <div class="continue-row">
+        <button class="btn btn-primary" id="continue-button" disabled>Continue to ratings</button>
+    </div>
+</div>
+
+<script>
+    const decisionStarted = performance.now();
+
+    function selectCandidate(side) {
+        document.getElementById('choice-' + side).checked = true;
+        document.querySelectorAll('.candidate-card').forEach(card => card.classList.remove('selected'));
+        document.getElementById('card-' + side).classList.add('selected');
+        document.getElementById('continue-button').disabled = false;
+    }
+
+    function keyboardSelect(event, side) {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            selectCandidate(side);
+        }
+    }
+
+    document.querySelector('form').addEventListener('submit', () => {
+        document.getElementById('decision-seconds').value = ((performance.now() - decisionStarted) / 1000).toFixed(3);
+    });
+</script>
+{{ endblock }}
