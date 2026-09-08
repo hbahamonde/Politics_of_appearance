@@ -30,7 +30,6 @@
 \pagestyle{empty}
 
 \newcommand{\sectionbar}[1]{%
-  \vspace{1pt}{\color{accent}\rule{\linewidth}{0.55pt}}\vspace{-5pt}
   \section*{\color{ink}#1}\vspace{-4pt}}
 \newcommand{\tightcite}[1]{\citep{#1}}
 \newcommand{\facetimg}[1]{%
@@ -69,18 +68,58 @@ Facial and bodily appearance can serve as a ``heuristic'' \tightcite{tversky1974
 This experiment advances this literature by manipulating \emph{self-presentation within identity}. It asks whether politically coded appearance changes (i) vote choice; (ii) trustworthiness, competence, credibility, authenticity, and political suitability; (iii) perceived ideology; and (iv) perceived appearance--policy fit. Independent randomization turns a multidimensional image-and-policy profile into a ``visual'' conjoint experimental design \tightcite{hainmueller2014,vecchiato2025}. Unlike a text-only profile-like conjoint design, the treatment in the current design preserves the visual mode in which candidates are commonly encountered.
 
 \sectionbar{Design and hypotheses}
-Four identity-locked portrait triptychs yield $4\times3=12$ image files. Respondents see two nonrepeating pairs: identities 1--2 in Task 1 and identities 3--4 in Task 2. Appearance $A\in\{-1,0,+1\}$ denotes progressive-coded, neutral, or conservative-coded presentation. Economic policy $E\in\{-1,+1\}$ and sociocultural policy $S\in\{-1,+1\}$ are independently randomized, as are screen side and the profile rated after each forced-choice vote (\autoref{fig:design}).
+Four identity-locked portrait triptychs yield $4\times3=12$ image files. Respondents see two nonrepeating pairs: identities 1--2 in Task 1 and identities 3--4 in Task 2. Appearance $A\in\{-1,0,+1\}$ denotes progressive-coded, neutral, or conservative-coded presentation. Economic policy $E\in\{-1,+1\}$ and sociocultural policy $S\in\{-1,+1\}$ are independently randomized, as are screen side and the profile rated after each forced-choice vote (see \autoref{fig:design}).
 
 \textbf{H1:} Appearance shifts perceived ideology after policy information is shown. \textbf{H2:} appearance--platform congruence increases vote probability, credibility, authenticity, political suitability, and perceived fit. \textbf{H3:} effects vary with respondent ideology, class, knowledge, candidate gender, and country.
+
+
+\sectionbar{Causal logic}
+For respondent $i$, candidate $j$, and task $t$, let $Y_{ijt}(a,e,s)$ denote a potential outcome under appearance $a$, economic policy $e$, and sociocultural policy $s$, with identity $j$ held fixed. The appearance AMCE relative to neutral is
+\[
+\tau_a=\mathbb{E}_{E,S,J,T}\!\left[Y_{ijt}(a,E,S)-Y_{ijt}(0,E,S)\right],\quad a\in\{-1,+1\}.
+\]
+For coherent platforms, let $P=-1$ denote economic-left/cultural-liberal and $P=+1$ economic-right/cultural-conservative. The appearance--platform interaction is
+\[
+\tau_{G}=\{\mu(+1,+1)-\mu(-1,+1)\}
+-\{\mu(+1,-1)-\mu(-1,-1)\},
+\]
+where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both quantities; standard errors cluster by respondent and identity in the comparative study.
+
+\begin{center}
+\begin{tikzpicture}[
+ n/.style={draw,rounded corners=2pt,align=center,minimum width=1.55cm,minimum height=.62cm,font=\scriptsize},
+ a/.style={-{Latex[length=1.7mm]},draw=accent,thick},
+ c/.style={draw=ink,rounded corners=2pt,align=center,minimum width=1.55cm,minimum height=.62cm,font=\scriptsize}
+]
+\node[n,fill=soft] (A) at (0,0) {Appearance\\$A$\\\scriptsize manipulated};
+\node[n] (M) at (2.35,0) {Perceived\\ideology / fit\\$M$};
+\node[n,fill=warm] (Y) at (4.7,0) {Vote and\\trait outcomes\\$Y$};
+\node[c,fill=soft] (P) at (2.35,-1.25) {Policy information\\$E,S$};
+\node[c] (J) at (0,-1.25) {Identity\\$J$ held fixed};
+\draw[a] (A)--(M); \draw[a] (M)--(Y); \draw[a] (A) to[bend left=22] (Y);
+\draw[a] (P)--(M); \draw[a] (P)--(Y); \draw[a,dashed] (J)--(A);
+\end{tikzpicture}
+
+{\scriptsize Causal pathway and design control.}
+\end{center}
+
+
+
+\sectionbar{Experimental contribution}
+The experiment uses identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. The three appearance conditions will be independently validated to establish their perceived political meanings in Finland and Chile.
+
+Before fielding, a Finnish pretest must assess perceived ideology, class/status, attractiveness, apparent age, gender expression, realism, AI artifacts, and resemblance to real people. Selection rules and exclusions should be preregistered: synthetic faces can appear unusually trustworthy \tightcite{nightingale2022}, while generators can reproduce stereotypes and homogenize groups \tightcite{aldahoul2025}.
+
+\sectionbar{Why it matters}
+The design distinguishes appearance from facial identity and tests whether visual presentation corroborates or contradicts political substance. Scaling the identity pool in Finland and Chile reveals whether political appearance is a shared heuristic or a context-dependent route through which classed and gendered boundaries enter representation.
+
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.48\linewidth]{/Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/design.jpeg}
-\caption{Candidate-choice task interface.}
+\caption{Candidate-choice task interface (example of one randomization).}
 \label{fig:design}
 \end{figure}
-
-\newpage
 
 \sectionbar{Candidate appearance stimuli}
 \begin{center}
@@ -101,77 +140,7 @@ Four identity-matched candidates across all three appearance conditions. The cro
 \end{minipage}
 \end{center}
 
-\newpage
 
-\begin{figure}[!t]
-\centering
-\begin{tikzpicture}[
-  node distance=4.5mm and 5mm,
-  box/.style={draw=ink!40,rounded corners=2pt,fill=white,align=center,text width=2.35cm,minimum height=0.78cm,inner sep=3pt,font=\scriptsize},
-  rand/.style={box,fill=soft,draw=accent!70},
-  result/.style={box,fill=warm},
-  arrow/.style={-{Latex[length=2mm]},thick,draw=accent}
-]
-\node[box] (pool) {\textbf{Four identities}\\three matched styles each};
-\node[rand,right=of pool] (r1) {\textbf{Independent draw}\\appearance $A$\\economy $E$\\culture $S$};
-\node[box,right=of r1] (t1) {\textbf{Task 1}\\paired vote\\identities 1--2};
-\node[result,right=of t1] (e1) {\textbf{Random profile}\\eight ratings};
-\node[box,below=7mm of t1] (t2) {\textbf{Task 2}\\paired vote\\identities 3--4};
-\node[rand,left=of t2] (r2) {\textbf{Independent draw}\\appearance $A$\\economy $E$\\culture $S$};
-\node[result,right=of t2] (e2) {\textbf{Random profile}\\eight ratings};
-\node[result,right=of e2] (data) {\textbf{Analysis data}\\choice + traits\\full assignment log};
-\draw[arrow] (pool)--(r1); \draw[arrow] (r1)--(t1); \draw[arrow] (t1)--(e1);
-\draw[arrow] (pool.south) |- (r2.west); \draw[arrow] (r2)--(t2); \draw[arrow] (t2)--(e2); \draw[arrow] (e2)--(data);
-\draw[arrow] (e1.east) -| (data.north);
-\end{tikzpicture}
-\vspace{-4pt}
-\caption{Participant flow. Every respondent sees four portraits across two tasks; no identity repeats.}
-\end{figure}
-
-\vspace{-8pt}
-\begin{minipage}[t]{0.49\linewidth}
-\sectionbar{Causal logic}
-For respondent $i$, candidate $j$, and task $t$, let $Y_{ijt}(a,e,s)$ denote a potential outcome under appearance $a$, economic policy $e$, and sociocultural policy $s$, with identity $j$ held fixed. The appearance AMCE relative to neutral is
-\[
-\tau_a=\mathbb{E}_{E,S,J,T}\!\left[Y_{ijt}(a,E,S)-Y_{ijt}(0,E,S)\right],\quad a\in\{-1,+1\}.
-\]
-For coherent platforms, let $P=-1$ denote economic-left/cultural-liberal and $P=+1$ economic-right/cultural-conservative. The appearance--platform interaction is
-\[
-\tau_{G}=\{\mu(+1,+1)-\mu(-1,+1)\}
--\{\mu(+1,-1)-\mu(-1,-1)\},
-\]
-where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both quantities; standard errors cluster by respondent and identity in the comparative study.
-
-\begin{center}
-\begin{tikzpicture}[
- n/.style={draw,rounded corners=2pt,align=center,minimum width=1.16cm,minimum height=.52cm,font=\scriptsize},
- a/.style={-{Latex[length=1.7mm]},draw=accent,thick}
-]
-\node[n,fill=soft] (A) at (0,0) {Appearance\\$A$};
-\node[n] (M) at (2.0,0) {Perceived\\ideology/fit};
-\node[n,fill=warm] (Y) at (4.1,0) {Vote and\\traits $Y$};
-\node[n,fill=soft] (P) at (2.0,-1.05) {Policies\\$E,S$};
-\node[n] (J) at (0,-1.05) {Blocked\\identity $J$};
-\draw[a] (A)--(M); \draw[a] (M)--(Y); \draw[a] (A) to[bend left=22] (Y);
-\draw[a] (P)--(Y); \draw[a] (P)--(M); \draw[a,dashed] (J)--(Y);
-\end{tikzpicture}
-
-{\scriptsize Causal pathway and design control.}
-\end{center}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.48\linewidth}
-\sectionbar{Experimental contribution}
-The experiment uses identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. The three appearance conditions will be independently validated to establish their perceived political meanings in Finland and Chile.
-
-Before fielding, a Finnish pretest must assess perceived ideology, class/status, attractiveness, apparent age, gender expression, realism, AI artifacts, and resemblance to real people. Selection rules and exclusions should be preregistered: synthetic faces can appear unusually trustworthy \tightcite{nightingale2022}, while generators can reproduce stereotypes and homogenize groups \tightcite{aldahoul2025}.
-
-\sectionbar{Why it matters}
-The design distinguishes appearance from facial identity and tests whether visual presentation corroborates or contradicts political substance. Scaling the identity pool in Finland and Chile reveals whether political appearance is a shared heuristic or a context-dependent route through which classed and gendered boundaries enter representation.
-\end{minipage}
-
-\vspace{-1pt}
-{\color{accent}\rule{\linewidth}{0.55pt}}
-\vspace{-7pt}
 \begin{multicols}{2}
 \footnotesize
 \begin{thebibliography}{99}
