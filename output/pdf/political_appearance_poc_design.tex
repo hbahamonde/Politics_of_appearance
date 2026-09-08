@@ -85,28 +85,8 @@ For coherent platforms, let $P=-1$ denote economic-left/cultural-liberal and $P=
 \]
 where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both quantities; standard errors cluster by respondent and identity in the comparative study.
 
-\begin{center}
-\begin{tikzpicture}[
- n/.style={draw,rounded corners=2pt,align=center,minimum width=1.55cm,minimum height=.62cm,font=\scriptsize},
- a/.style={-{Latex[length=1.7mm]},draw=accent,thick},
- c/.style={draw=ink,rounded corners=2pt,align=center,minimum width=1.55cm,minimum height=.62cm,font=\scriptsize}
-]
-\node[n,fill=soft] (A) at (0,0) {Appearance\\$A$\\\scriptsize manipulated};
-\node[n] (M) at (2.35,0) {Perceived\\ideology / fit\\$M$};
-\node[n,fill=warm] (Y) at (4.7,0) {Vote and\\trait outcomes\\$Y$};
-\node[c,fill=soft] (P) at (2.35,-1.25) {Policy information\\$E,S$};
-\node[c] (J) at (0,-1.25) {Identity\\$J$ held fixed};
-\draw[a] (A)--(M); \draw[a] (M)--(Y); \draw[a] (A) to[bend left=22] (Y);
-\draw[a] (P)--(M); \draw[a] (P)--(Y); \draw[a,dashed] (J)--(A);
-\end{tikzpicture}
-
-{\scriptsize Causal pathway and design control.}
-\end{center}
-
-
-
 \sectionbar{Experimental contribution}
-The experiment uses identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. The three appearance conditions will be independently validated to establish their perceived political meanings in Finland and Chile.
+The experiment uses identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. 
 
 Before fielding, a Finnish pretest must assess perceived ideology, class/status, attractiveness, apparent age, gender expression, realism, AI artifacts, and resemblance to real people. Selection rules and exclusions should be preregistered: synthetic faces can appear unusually trustworthy \tightcite{nightingale2022}, while generators can reproduce stereotypes and homogenize groups \tightcite{aldahoul2025}.
 
@@ -136,7 +116,7 @@ Candidate 4 & \facetimg{/Users/hectorbahamonde/research/Politics_of_appearance/_
 
 \begin{minipage}{0.86\linewidth}
 \small\color{ink}\centering
-Four identity-matched candidates across all three appearance conditions. The crop emphasizes the face, hair, accessories, and upper-body presentation used as visual cues. Condition labels are analytic and are never shown to respondents.
+Four identity-matched candidates across all three appearance conditions. The crop emphasizes the face, hair, accessories, and upper-body presentation used as visual cues.
 \end{minipage}
 \end{center}
 
