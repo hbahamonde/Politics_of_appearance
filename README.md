@@ -45,6 +45,30 @@ Automated validation:
 otree test finland_appearance_poc
 ```
 
+## Deploy on Render
+
+Create a Python web service from this repository with the repository root left
+as the service root.
+
+- Build command: `pip install -r requirements.txt`
+- Start command: `otree prodserver $PORT`
+- Health-check path: `/`
+
+Use a Render Postgres database in the same region as the web service. Configure
+these environment variables before the first deployment:
+
+- `DATABASE_URL`: the database's internal connection URL;
+- `OTREE_ADMIN_PASSWORD`: a generated administrator password;
+- `OTREE_SECRET_KEY`: a separate generated secret;
+- `OTREE_PRODUCTION=1`;
+- `OTREE_AUTH_LEVEL=DEMO` for this public proof of concept (`STUDY` for a
+  controlled data-collection deployment).
+
+The Python runtime is pinned through `.python-version`. Never add `otree
+resetdb` to the Render build or start command: it deletes all session and
+participant data. The local `db.sqlite3` file is intentionally excluded from
+Git; deployed data should live in Postgres.
+
 ## Important research status
 
 The photographs are newly generated, fictional proof-of-concept stimuli. They
