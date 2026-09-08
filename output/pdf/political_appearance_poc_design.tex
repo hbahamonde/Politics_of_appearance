@@ -38,7 +38,7 @@
 \begin{document}
 
 \begin{center}
-{\LARGE\bfseries Political Appearance as a Causal Cue}\par
+{\LARGE\bfseries Politics of Appearance.}\par
 \vspace{2pt}
 {\large\bfseries A Matched-Identity Candidate Experiment in Finland and Chile}\par
 \vspace{5pt}
@@ -49,9 +49,18 @@
 \begin{center}
 \begin{minipage}{0.94\linewidth}
 \colorbox{soft}{\parbox{0.965\linewidth}{%
-\textbf{Abstract.} Citizens routinely encounter political candidates first as images. This proof of concept identifies whether modifiable political self-presentation---clothing, grooming, hair arrangement, and accessories---causally shapes candidate choice and trait evaluation, and whether those effects depend on congruence with stated policy. Four fictional Finnish identities are each rendered in progressive-coded, neutral, and conservative-coded forms while identity, expression, pose, lighting, age, and background remain fixed. In two paired municipal-election tasks, appearance, economic policy, and sociocultural policy are independently randomized. The design therefore separates an appearance effect from stable facial identity and from the political information attached to the image. It delivers a reusable oTree architecture for a larger preregistered Finland--Chile study, while treating the present images strictly as unvalidated demonstration stimuli.}}
+\textbf{Abstract.} Citizens routinely encounter political candidates first as images. This study identifies whether modifiable political self-presentation---clothing, grooming, hair arrangement, and accessories---causally shapes candidate choice and trait evaluation, and whether those effects depend on congruence with stated policy. Four fictional Finnish identities are each rendered in progressive-coded, neutral, and conservative-coded forms while identity, expression, pose, lighting, age, and background remain fixed. In two paired municipal-election tasks, appearance, economic policy, and sociocultural policy are independently randomized. The design therefore separates an appearance effect from stable facial identity and from the political information attached to the image. It delivers a reusable oTree architecture for preregistered comparative fielding in Finland and Chile, with the images subject to independent perceptual validation before data collection.}}
 \end{minipage}
 \end{center}
+
+\vspace{-1pt}
+\begin{center}
+\fcolorbox{accent}{warm}{\parbox{0.89\linewidth}{\centering
+\textbf{\color{accent}LIVE EXPERIMENT}\quad
+\href{https://political-appearance-finland.onrender.com}{\texttt{political-appearance-finland.onrender.com}}
+}}
+\end{center}
+\vspace{-3pt}
 
 \sectionbar{Motivation and contribution}
 Facial and bodily appearance can serve as a rapid political cue, particularly when information is limited. Yet appearance is not a neutral measurement device: attractiveness and competence create halo effects in perceived ideology \tightcite{herrmann2016}; stereotypically conservative-looking faces can affect candidate support \tightcite{olivola2018}; and a dominant-looking face can help with conservative audiences while backfiring among liberals \tightcite{laustsen2016}. Appearance also communicates social position. In Finnish municipal elections, upper-class-looking candidates received more votes, while working-class-looking women faced a distinctive penalty \tightcite{bahamonde2024}. These findings imply that the same look need not be universally advantageous. Its meaning should depend on the political message, the audience, and the status boundaries active in a society.
@@ -61,11 +70,11 @@ The experiment advances this literature by manipulating \emph{self-presentation 
 \sectionbar{Design and hypotheses}
 Four identity-locked portrait triptychs yield $4\times3=12$ image files. Respondents see two nonrepeating pairs: identities 1--2 in Task 1 and identities 3--4 in Task 2. Appearance $A\in\{-1,0,+1\}$ denotes progressive-coded, neutral, or conservative-coded presentation. Economic policy $E\in\{-1,+1\}$ and sociocultural policy $S\in\{-1,+1\}$ are independently randomized, as are screen side and the profile rated after each forced-choice vote.
 
-\textbf{H1:} Appearance shifts perceived ideology after policy information is shown. \textbf{H2:} appearance--platform congruence increases vote probability, credibility, authenticity, political suitability, and perceived fit. \textbf{H3:} production-study effects vary with respondent ideology, class, knowledge, candidate gender, and country.
+\textbf{H1:} Appearance shifts perceived ideology after policy information is shown. \textbf{H2:} appearance--platform congruence increases vote probability, credibility, authenticity, political suitability, and perceived fit. \textbf{H3:} effects vary with respondent ideology, class, knowledge, candidate gender, and country.
 
 \newpage
 
-\sectionbar{All proof-of-concept stimuli}
+\sectionbar{Candidate appearance stimuli}
 \begin{center}
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{0.96}
@@ -123,7 +132,7 @@ For coherent platforms, let $P=-1$ denote economic-left/cultural-liberal and $P=
 \tau_{G}=\{\mu(+1,+1)-\mu(-1,+1)\}
 -\{\mu(+1,-1)-\mu(-1,-1)\},
 \]
-where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both quantities; standard errors cluster by respondent and identity in the production study.
+where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both quantities; standard errors cluster by respondent and identity in the comparative study.
 
 \begin{center}
 \begin{tikzpicture}[
@@ -143,8 +152,8 @@ where $\mu(a,p)=\mathbb{E}[Y\mid A=a,P=p]$. Random assignment identifies both qu
 \end{center}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.48\linewidth}
-\sectionbar{Prototype contribution}
-The prototype delivers identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. It does not claim that the three looks already possess the intended Finnish meanings.
+\sectionbar{Experimental contribution}
+The experiment uses identity-matched images, independently randomizes appearance and two policy dimensions, prevents within-person identity repetition, randomizes the rated profile, and exports every assignment with choice time and outcomes. The three appearance conditions will be independently validated to establish their perceived political meanings in Finland and Chile.
 
 Before fielding, a Finnish pretest must assess perceived ideology, class/status, attractiveness, apparent age, gender expression, realism, AI artifacts, and resemblance to real people. Selection rules and exclusions should be preregistered: synthetic faces can appear unusually trustworthy \tightcite{nightingale2022}, while generators can reproduce stereotypes and homogenize groups \tightcite{aldahoul2025}.
 
