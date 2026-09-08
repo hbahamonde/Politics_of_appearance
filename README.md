@@ -1,4 +1,4 @@
-# Politics of Appearance — Finnish proof of concept
+# Politics of Appearance
 
 This is a deliberately small, English-language oTree 6 proof of concept for a
 matched-identity visual factorial experiment set in Finland. It contains two municipal-election choices and no
