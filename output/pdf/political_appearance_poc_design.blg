@@ -1,5 +1,5 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is '/Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/political_appearance_poc_design.blg'
-[34] biber-darwin:342> INFO - === Tue Sep  8, 2026, 15:53:49
-[125] Utils.pm:479> ERROR - Cannot find '/Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/political_appearance_poc_design.bcf'!
-[125] Biber.pm:137> INFO - ERRORS: 1
+[36] biber-darwin:342> INFO - === Tue Sep  8, 2026, 17:53:18
+[141] Utils.pm:479> ERROR - Cannot find '/Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/political_appearance_poc_design.bcf'!
+[141] Biber.pm:137> INFO - ERRORS: 1

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  8 SEP 2026 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  8 SEP 2026 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,6 +321,14 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \Gin@req@height=\dimen188
 \Gin@req@width=\dimen189
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks30
+\float@box=\box58
+\@float@everytoks=\toks31
+\@floatcapt=\box59
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
@@ -345,12 +353,12 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks30
+\pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen190
 \pgfutil@tempdimb=\dimen191
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box60
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
@@ -362,12 +370,12 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks33
+\pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen192
 \pgf@y=\dimen193
@@ -381,14 +389,14 @@ tered.code.tex
 \pgf@yd=\dimen257
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count312
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count313
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -406,8 +414,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count313
-\pgfsyssoftpath@bigbuffer@items=\count314
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -419,11 +427,11 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen258
-\pgfmath@count=\count315
-\pgfmath@box=\box59
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@count=\count316
+\pgfmath@box=\box61
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -445,7 +453,7 @@ code.tex)
 erarithmetics.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count316
+\c@pgfmathroundto@lastzeros=\count317
 )) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -480,10 +488,10 @@ File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count317
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count318
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -518,8 +526,8 @@ File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 e.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen282
-\pgf@sys@shading@range@num=\count318
-\pgf@shadingcount=\count319
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -528,7 +536,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box65
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -549,7 +557,7 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box66
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -574,8 +582,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen285
 \pgffor@skip=\dimen286
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -584,7 +592,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count320
+\pgf@plot@mark@count=\count321
 \pgfplotmarksize=\dimen287
 )
 \tikz@lastx=\dimen288
@@ -595,23 +603,23 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen293
 \tikzleveldistance=\dimen294
 \tikzsiblingdistance=\dimen295
-\tikz@figbox=\box65
-\tikz@figbox@bg=\box66
-\tikz@tempbox=\box67
-\tikz@tempbox@bg=\box68
-\tikztreelevel=\count321
-\tikznumberofchildren=\count322
-\tikznumberofcurrentchild=\count323
-\tikz@fig@count=\count324
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count325
-\pgfmatrixcurrentcolumn=\count326
-\pgf@matrix@numberofcolumns=\count327
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
 )
-\tikz@expandcount=\count328
+\tikz@expandcount=\count329
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -639,30 +647,28 @@ File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count329
-\mult@box=\box69
+\c@tracingmulticols=\count330
+\mult@box=\box71
 \multicol@leftmargin=\dimen300
-\c@unbalance=\count330
-\c@collectmore=\count331
-\doublecol@number=\count332
-\multicoltolerance=\count333
-\multicolpretolerance=\count334
+\c@unbalance=\count331
+\c@collectmore=\count332
+\doublecol@number=\count333
+\multicoltolerance=\count334
+\multicolpretolerance=\count335
 \full@width=\dimen301
 \page@free=\dimen302
 \premulticols=\dimen303
 \postmulticols=\dimen304
 \multicolsep=\skip57
 \multicolbaselineskip=\skip58
-\partial@page=\box70
-\last@line=\box71
-\mc@boxedresult=\box72
+\partial@page=\box72
+\last@line=\box73
+\mc@boxedresult=\box74
 \maxbalancingoverflow=\dimen305
-\mult@rightbox=\box73
-\mult@grightbox=\box74
-\mult@firstbox=\box75
-\mult@gfirstbox=\box76
-\@tempa=\box77
-\@tempa=\box78
+\mult@rightbox=\box75
+\mult@grightbox=\box76
+\mult@firstbox=\box77
+\mult@gfirstbox=\box78
 \@tempa=\box79
 \@tempa=\box80
 \@tempa=\box81
@@ -697,23 +703,25 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box110
 \@tempa=\box111
 \@tempa=\box112
-\c@minrows=\count335
-\c@columnbadness=\count336
-\c@finalcolumnbadness=\count337
+\@tempa=\box113
+\@tempa=\box114
+\c@minrows=\count336
+\c@columnbadness=\count337
+\c@finalcolumnbadness=\count338
 \last@try=\dimen306
 \multicolovershoot=\dimen307
 \multicolundershoot=\dimen308
-\mult@nat@firstbox=\box113
-\colbreak@box=\box114
-\mc@col@check@num=\count338
-\g__mc_curr_col_int=\count339
+\mult@nat@firstbox=\box115
+\colbreak@box=\box116
+\mc@col@check@num=\count339
+\g__mc_curr_col_int=\count340
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
 \bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count340
+\c@NAT@ctr=\count341
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -748,14 +756,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count342
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen309
-\Hy@linkcounter=\count342
-\Hy@pagecounter=\count343
+\Hy@linkcounter=\count343
+\Hy@pagecounter=\count344
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
@@ -765,7 +773,7 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count344
+\Hy@SavedSpaceFactor=\count345
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
@@ -779,7 +787,7 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count345
+\c@Hy@tempcnt=\count346
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
@@ -795,7 +803,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count346
+\Fld@menulength=\count347
 \Field@Width=\dimen311
 \Fld@charsize=\dimen312
 Package hyperref Info: Hyper figures OFF on input line 6084.
@@ -805,16 +813,16 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count347
-\c@Item=\count348
-\c@Hfootnote=\count349
+\Hy@abspage=\count348
+\c@Item=\count349
+\c@Hfootnote=\count350
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
-\Fld@listcount=\count350
-\c@bookmark@seq@number=\count351
+\Fld@listcount=\count351
+\c@bookmark@seq@number=\count352
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -827,37 +835,37 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 38
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 39
 .
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count352
+\l__color_backend_stack_int=\count353
 )
 (output/pdf/political_appearance_poc_design.aux)
 \openout1 = `political_appearance_poc_design.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -893,13 +901,13 @@ LaTeX Font Info:    ... okay on input line 38.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 38.
-Package microtype Info: Applying patch `item' on input line 38.
-Package microtype Info: Applying patch `toc' on input line 38.
-Package microtype Info: Applying patch `eqnum' on input line 38.
-Package microtype Info: Applying patch `footnote' on input line 38.
-Package microtype Info: Applying patch `verbatim' on input line 38.
-LaTeX Info: Redefining \microtypesetup on input line 38.
+LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Applying patch `item' on input line 39.
+Package microtype Info: Applying patch `toc' on input line 39.
+Package microtype Info: Applying patch `eqnum' on input line 39.
+Package microtype Info: Applying patch `footnote' on input line 39.
+Package microtype Info: Applying patch `verbatim' on input line 39.
+LaTeX Info: Redefining \microtypesetup on input line 39.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -916,17 +924,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
+\scratchcounter=\count354
 \scratchdimen=\dimen313
-\scratchbox=\box115
-\nofMPsegments=\count354
-\nofMParguments=\count355
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count356
+\scratchbox=\box117
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count357
 \MPscratchDim=\dimen314
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -936,7 +944,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 39.
 
 (output/pdf/political_appearance_poc_design.out)
 (output/pdf/political_appearance_poc_design.out)
@@ -944,36 +952,36 @@ Package hyperref Info: Link coloring ON on input line 38.
 \openout4 = `political_appearance_poc_design.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-5.
+6.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-5.
+6.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-45.
+46.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-45.
+46.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 45.
+(Font)              <10> on input line 46.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 45.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+(Font)              <5> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -982,7 +990,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -992,7 +1000,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-1.
+2.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1001,134 +1009,144 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+</Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/design.jpeg,
+ id=23, 1008.76875pt x 942.52126pt>
+File: /Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/design.
+jpeg Graphic file (type jpg)
+<use /Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/design.j
+peg>
+Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
+/output/pdf/design.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 251.84459pt x 235.29895pt.
  [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
 5/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf-di
 st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/d
-vips/lm/lm-mathit.enc}]
+vips/lm/lm-mathit.enc}] [2 </Users/hectorbahamonde/research/Politics_of_appeara
+nce/output/pdf/design.jpeg>]
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_01_v1.png, id=42, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_01_v1.png, id=53, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_01_v1.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_01_v1.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_01_v1.png  used on i
-nput line 83.
+nput line 91.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_01_v2.png, id=44, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_01_v2.png, id=55, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_01_v2.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_01_v2.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_01_v2.png  used on i
-nput line 83.
+nput line 91.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_01_v3.png, id=46, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_01_v3.png, id=57, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_01_v3.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_01_v3.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_01_v3.png  used on i
-nput line 83.
+nput line 91.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_02_v1.png, id=48, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_02_v1.png, id=59, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_02_v1.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_02_v1.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_02_v1.png  used on i
-nput line 84.
+nput line 92.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_02_v2.png, id=50, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_02_v2.png, id=61, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_02_v2.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_02_v2.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_02_v2.png  used on i
-nput line 84.
+nput line 92.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_02_v3.png, id=52, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_02_v3.png, id=63, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_02_v3.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_02_v3.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_02_v3.png  used on i
-nput line 84.
+nput line 92.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_03_v1.png, id=54, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_03_v1.png, id=65, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_03_v1.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_03_v1.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_03_v1.png  used on i
-nput line 85.
+nput line 93.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_03_v2.png, id=56, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_03_v2.png, id=67, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_03_v2.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_03_v2.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_03_v2.png  used on i
-nput line 85.
+nput line 93.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_03_v3.png, id=58, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_03_v3.png, id=69, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_03_v3.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_03_v3.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_03_v3.png  used on i
-nput line 85.
+nput line 93.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_04_v1.png, id=60, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_04_v1.png, id=71, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_04_v1.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_04_v1.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_04_v1.png  used on i
-nput line 86.
+nput line 94.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_04_v2.png, id=62, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_04_v2.png, id=73, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_04_v2.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_04_v2.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_04_v2.png  used on i
-nput line 86.
+nput line 94.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_expe
-riment/images/candidates/candidate_04_v3.png, id=64, 501.875pt x 1003.75pt>
+riment/images/candidates/candidate_04_v3.png, id=75, 501.875pt x 1003.75pt>
 File: /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance
 _experiment/images/candidates/candidate_04_v3.png Graphic file (type png)
 <use /Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_04_v3.png>
 Package pdftex.def Info: /Users/hectorbahamonde/research/Politics_of_appearance
 /_static/appearance_experiment/images/candidates/candidate_04_v3.png  used on i
-nput line 86.
+nput line 94.
 (pdftex.def)             Requested size: 101.17755pt x 121.41257pt.
- [2 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
+ [3 </Users/hectorbahamonde/research/Politics_of_appearance/_static/appearance_
 experiment/images/candidates/candidate_01_v1.png> </Users/hectorbahamonde/resea
 rch/Politics_of_appearance/_static/appearance_experiment/images/candidates/cand
 idate_01_v2.png> </Users/hectorbahamonde/research/Politics_of_appearance/_stati
@@ -1148,17 +1166,17 @@ ctorbahamonde/research/Politics_of_appearance/_static/appearance_experiment/ima
 ges/candidates/candidate_04_v2.png> </Users/hectorbahamonde/research/Politics_o
 f_appearance/_static/appearance_experiment/images/candidates/candidate_04_v3.pn
 g>]
-Underfull \hbox (badness 6641) in paragraph at lines 175--176
+Underfull \hbox (badness 6641) in paragraph at lines 183--184
 []\T1/lmr/m/n/8 (+20) Laustsen, L., & Pe-tersen, M. B. (2016). Win-ning faces
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 175--176
+Underfull \hbox (badness 5533) in paragraph at lines 183--184
 \T1/lmr/m/n/8 (+20) vary by ide-ol-ogy. \T1/lmr/m/it/8 (+20) Po-lit-i-cal Com-m
 u-ni-ca-tion\T1/lmr/m/n/8 (+20) , 33, 188--211.
  []
 
-[3] (output/pdf/political_appearance_poc_design.aux)
+[4] (output/pdf/political_appearance_poc_design.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1168,13 +1186,13 @@ Package rerunfilecheck Info: File `political_appearance_poc_design.out' has not
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25601 strings out of 467533
- 480415 string characters out of 5419489
- 926417 words of memory out of 5000000
- 53923 multiletter control sequences out of 15000+600000
- 694659 words of font info for 139 fonts, out of 8000000 for 9000
+ 25682 strings out of 467533
+ 482145 string characters out of 5419489
+ 929287 words of memory out of 5000000
+ 53999 multiletter control sequences out of 15000+600000
+ 694576 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,94p,1071b,838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,94p,1039b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb></usr/local/texlive/2025/texm
@@ -1189,11 +1207,11 @@ ts/type1/public/lm/lmri8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
 tt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbol
 s/msbm10.pfb>
-Output written on output/pdf/political_appearance_poc_design.pdf (3 pages, 1050
-8863 bytes).
+Output written on output/pdf/political_appearance_poc_design.pdf (4 pages, 1106
+5166 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 37521 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 37526 words of extra memory for PDF output out of 42996 (max. 10000000)
 

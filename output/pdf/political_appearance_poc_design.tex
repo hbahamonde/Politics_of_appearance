@@ -10,6 +10,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs,tabularx,array}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{xcolor}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning,calc,fit}
@@ -38,7 +39,7 @@
 \begin{document}
 
 \begin{center}
-{\LARGE\bfseries Politics of Appearance.}\par
+{\LARGE\bfseries Politics of Appearance}\par
 \vspace{2pt}
 {\large\bfseries A Matched-Identity Candidate Experiment in Finland and Chile}\par
 \vspace{5pt}
@@ -49,28 +50,35 @@
 \begin{center}
 \begin{minipage}{0.94\linewidth}
 \colorbox{soft}{\parbox{0.965\linewidth}{%
-\textbf{Abstract.} Citizens routinely encounter political candidates first as images. This study identifies whether modifiable political self-presentation---clothing, grooming, hair arrangement, and accessories---causally shapes candidate choice and trait evaluation, and whether those effects depend on congruence with stated policy. Four fictional Finnish identities are each rendered in progressive-coded, neutral, and conservative-coded forms while identity, expression, pose, lighting, age, and background remain fixed. In two paired municipal-election tasks, appearance, economic policy, and sociocultural policy are independently randomized. The design therefore separates an appearance effect from stable facial identity and from the political information attached to the image. It delivers a reusable oTree architecture for preregistered comparative fielding in Finland and Chile, with the images subject to independent perceptual validation before data collection.}}
+\textbf{Abstract.} Citizens routinely encounter political candidates first as images. This study identifies whether modifiable political self-presentation---clothing, grooming, hair arrangement, and accessories---causally shapes candidate choice and trait evaluation, and whether those effects depend on congruence with stated policy. Four fictional Finnish identities are each rendered in progressive-coded, neutral, and conservative-coded forms while identity, expression, pose, lighting, age, and background remain fixed. In two paired municipal-election tasks, appearance, economic policy, and sociocultural policy are independently randomized. The design therefore separates an appearance effect from stable facial identity and from the political information attached to the image.}}
 \end{minipage}
 \end{center}
 
 \vspace{-1pt}
 \begin{center}
 \fcolorbox{accent}{warm}{\parbox{0.89\linewidth}{\centering
-\textbf{\color{accent}LIVE EXPERIMENT}\quad
+\textbf{\color{accent}Prototype:}\quad
 \href{https://political-appearance-finland.onrender.com}{\texttt{political-appearance-finland.onrender.com}}
 }}
 \end{center}
 \vspace{-3pt}
 
 \sectionbar{Motivation and contribution}
-Facial and bodily appearance can serve as a rapid political cue, particularly when information is limited. Yet appearance is not a neutral measurement device: attractiveness and competence create halo effects in perceived ideology \tightcite{herrmann2016}; stereotypically conservative-looking faces can affect candidate support \tightcite{olivola2018}; and a dominant-looking face can help with conservative audiences while backfiring among liberals \tightcite{laustsen2016}. Appearance also communicates social position. In Finnish municipal elections, upper-class-looking candidates received more votes, while working-class-looking women faced a distinctive penalty \tightcite{bahamonde2024}. These findings imply that the same look need not be universally advantageous. Its meaning should depend on the political message, the audience, and the status boundaries active in a society.
+Facial and bodily appearance can serve as a ``heuristic'' \tightcite{tversky1974}, a rapid (political) cue, particularly when information is limited. Yet appearance is not a neutral measurement device: attractiveness and competence create halo effects in perceived ideology \tightcite{herrmann2016}; stereotypically conservative-looking faces can affect candidate support \tightcite{olivola2018}; and a dominant-looking face can help with conservative audiences while backfiring among liberals \tightcite{laustsen2016}. Appearance also communicates social position. In Finnish municipal elections, upper-class-looking candidates received more votes, while working-class-looking women faced a distinctive penalty \tightcite{bahamonde2024}. These findings imply that the same look need not be universally advantageous. Its meaning should depend on the political message, the audience, and the status boundaries active in a society.
 
-The experiment advances this literature by manipulating \emph{self-presentation within identity}. It asks whether politically coded appearance changes (i) vote choice; (ii) trustworthiness, competence, credibility, authenticity, and political suitability; (iii) perceived ideology; and (iv) perceived appearance--policy fit. Independent randomization turns a multidimensional image-and-policy profile into a causal visual conjoint \tightcite{hainmueller2014,vecchiato2025}. Unlike a text-only profile, the treatment preserves the visual mode in which candidates are commonly encountered.
+This experiment advances this literature by manipulating \emph{self-presentation within identity}. It asks whether politically coded appearance changes (i) vote choice; (ii) trustworthiness, competence, credibility, authenticity, and political suitability; (iii) perceived ideology; and (iv) perceived appearance--policy fit. Independent randomization turns a multidimensional image-and-policy profile into a ``visual'' conjoint experimental design \tightcite{hainmueller2014,vecchiato2025}. Unlike a text-only profile-like conjoint design, the treatment in the current design preserves the visual mode in which candidates are commonly encountered.
 
 \sectionbar{Design and hypotheses}
-Four identity-locked portrait triptychs yield $4\times3=12$ image files. Respondents see two nonrepeating pairs: identities 1--2 in Task 1 and identities 3--4 in Task 2. Appearance $A\in\{-1,0,+1\}$ denotes progressive-coded, neutral, or conservative-coded presentation. Economic policy $E\in\{-1,+1\}$ and sociocultural policy $S\in\{-1,+1\}$ are independently randomized, as are screen side and the profile rated after each forced-choice vote.
+Four identity-locked portrait triptychs yield $4\times3=12$ image files. Respondents see two nonrepeating pairs: identities 1--2 in Task 1 and identities 3--4 in Task 2. Appearance $A\in\{-1,0,+1\}$ denotes progressive-coded, neutral, or conservative-coded presentation. Economic policy $E\in\{-1,+1\}$ and sociocultural policy $S\in\{-1,+1\}$ are independently randomized, as are screen side and the profile rated after each forced-choice vote (\autoref{fig:design}).
 
 \textbf{H1:} Appearance shifts perceived ideology after policy information is shown. \textbf{H2:} appearance--platform congruence increases vote probability, credibility, authenticity, political suitability, and perceived fit. \textbf{H3:} effects vary with respondent ideology, class, knowledge, candidate gender, and country.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\linewidth]{/Users/hectorbahamonde/research/Politics_of_appearance/output/pdf/design.jpeg}
+\caption{Candidate-choice task interface.}
+\label{fig:design}
+\end{figure}
 
 \newpage
 
@@ -176,6 +184,11 @@ The design distinguishes appearance from facial identity and tests whether visua
 \bibitem[Nightingale and Farid(2022)]{nightingale2022} Nightingale, S. J., \& Farid, H. (2022). AI-synthesized faces are indistinguishable from real faces and more trustworthy. \emph{PNAS}, 119, e2120481119. \href{https://doi.org/10.1073/pnas.2120481119}{doi:10.1073/pnas.2120481119}.
 \bibitem[Olivola et~al.(2018)]{olivola2018} Olivola, C. Y., Tingley, D., \& Todorov, A. (2018). Republican voters prefer candidates who have conservative-looking faces. \emph{Political Psychology}, 39, 1157--1171. \href{https://doi.org/10.1111/pops.12489}{doi:10.1111/pops.12489}.
 \bibitem[Vecchiato and Munger(2025)]{vecchiato2025} Vecchiato, A., \& Munger, K. (2025). Introducing the visual conjoint. \emph{Journal of Experimental Political Science}, 12, 57--71. \href{https://doi.org/10.1017/XPS.2024.15}{doi:10.1017/XPS.2024.15}.
+\bibitem[Tversky and Kahneman(1974)]{tversky1974}
+Tversky, A., \& Kahneman, D. (1974).
+Judgment under uncertainty: Heuristics and biases.
+\emph{Science}, 185(4157), 1124--1131.
+\href{https://doi.org/10.1126/science.185.4157.1124}{doi:10.1126/science.185.4157.1124}.
 \end{thebibliography}
 \end{multicols}
 
